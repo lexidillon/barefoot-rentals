@@ -1,9 +1,32 @@
 :root {
-  --title-font: "Montserrat", sans-serif;
-  --subtitle-font: "Poppins", sans-serif;
-  --paragraph-font: "Nunito", sans-serif;
+  --title-font-family: "Montserrat", sans-serif;
+  --subtitle-font-family: "Poppins", sans-serif;
+  --paragraph-font-family: "Nunito", sans-serif;
   --light-color: #e1f6f4;
   --dark-color: #07588a;
   --primary-color: #bfe9db;
   --accent-color: #6ac1b8;
+}
+
+.navbar {
+  background: var(--light-color) !important;
+}
+
+.navbar-brand img {
+  margin-left: 10px;
+}
+
+.nav-item a {
+  color: var(--dark-color) !important;
+  font-family: var(--title-font-family) !important;
+  margin: 0px 15px;
+  transition: all 100ms ease-in-out;
+}
+
+.nav-item a:hover {
+  color: var(--accent-color) !important;
+}
+
+.nav-item .active {
+  color: black !important;
 }
