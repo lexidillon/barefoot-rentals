@@ -8,6 +8,90 @@
   --accent-color: #6ac1b8;
 }
 
+footer {
+  padding: 15px;
+  background-color: var(--light-color);
+}
+
+footer a,
+footer li {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-family: var(--subtitle-font-family);
+  font-size: 14px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+}
+
+.btn-light {
+  font-size: 18px;
+  margin: 15px;
+  padding: 10px 20px;
+  opacity: 0.7;
+  font-family: var(--paragraph-font-family);
+  background-color: var(--light-color) !important;
+  border-radius: 10px !important;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-light:hover {
+  background-color: var(--dark-color) !important;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-family: var(--subtitle-font-family);
+}
+
+.header-content {
+  max-width: 835px;
+  margin-left: 80px;
+  padding: 0px 60px;
+}
+
+.header-content h2 {
+  color: var(--dark-color);
+  font-family: var(--subtitle-font-family);
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.header-content p {
+  color: black;
+  opacity: 0.7;
+  font-family: var(--paragraph-font-family);
+  font-size: 20px;
+}
+
+.header-hr {
+  border: 3px solid var(--dark-color);
+}
+
+.hero {
+  background: #749a8e;
+  background: -webkit-linear-gradient(
+      rgba(47, 72, 88, 0.7),
+      rgba(116, 154, 142, 0.3)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/213/original/footprints_edited-4.jpg?1664567183");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 220px 60px 180px 60px;
+  line-height: 1.5;
+}
+
+.hero .title {
+  font-size: 80px;
+  opacity: 0.8;
+  color: var(--dark-color);
+  -webkit-text-stroke: 1px var(--light-color);
+  font-family: var(--subtitle-font-family);
+  text-shadow: 1px 1px 2px var(--dark-color);
+}
+
 .navbar {
   background: var(--light-color) !important;
 }
@@ -19,7 +103,7 @@
 .nav-item a {
   color: var(--dark-color) !important;
   font-family: var(--title-font-family) !important;
-  margin: 0px 15px;
+  padding: 5px 30px !important;
   transition: all 100ms ease-in-out;
 }
 
