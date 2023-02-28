@@ -1,6 +1,6 @@
 :root {
-  --title-font-family: "Montserrat", sans-serif;
-  --subtitle-font-family: "Poppins", sans-serif;
+  --subtitle-font-family: "Montserrat", sans-serif;
+  --title-font-family: "Poppins", sans-serif;
   --paragraph-font-family: "Nunito", sans-serif;
   --light-color: #e1f6f4;
   --dark-color: #07588a;
@@ -9,8 +9,9 @@
 }
 
 footer {
-  padding: 15px;
   background-color: var(--light-color);
+  padding: 15px;
+  margin-top: 50px;
 }
 
 footer a,
@@ -24,6 +25,12 @@ footer li {
 
 footer a:hover {
   color: var(--accent-color);
+}
+
+p {
+  color: black;
+  font-family: var(--paragraph-font-family);
+  font-size: 18;
 }
 
 .btn-light {
@@ -60,10 +67,7 @@ footer a:hover {
 }
 
 .header-content p {
-  color: black;
   opacity: 0.7;
-  font-family: var(--paragraph-font-family);
-  font-size: 20px;
 }
 
 .header-hr {
@@ -74,22 +78,65 @@ footer a:hover {
   background: #749a8e;
   background: -webkit-linear-gradient(
       rgba(47, 72, 88, 0.7),
-      rgba(116, 154, 142, 0.3)
+      rgba(116, 154, 142, 0.2)
     ),
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/213/original/footprints_edited-4.jpg?1664567183");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 220px 60px 180px 60px;
+  padding: 180px 60px 120px 60px;
   line-height: 1.5;
 }
 
 .hero .title {
-  font-size: 80px;
-  opacity: 0.8;
-  color: var(--dark-color);
   -webkit-text-stroke: 1px var(--light-color);
-  font-family: var(--subtitle-font-family);
   text-shadow: 1px 1px 2px var(--dark-color);
+}
+
+.house-description {
+  margin: 10px 100px;
+  line-height: 30px;
+}
+
+.house-image {
+  transition: all 150ms ease-in-out;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.house-image:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.house-links {
+  margin: 20px;
+}
+
+.info-section {
+  padding: 40px;
+  margin: 10px 30px;
+  background-color: rgb(7, 88, 138, 0.9);
+  border-radius: 5px;
+}
+
+.info-section a {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.info-section i {
+  font-size: 30px;
+  color: var(--dark-color);
+}
+
+.info-section .subtitle {
+  color: var(--primary-color);
+}
+
+.info-section p {
+  color: var(--light-color);
 }
 
 .navbar {
@@ -113,4 +160,74 @@ footer a:hover {
 
 .nav-item .active {
   color: black !important;
+}
+
+.subtitle {
+  font-family: var(--subtitle-font-family);
+  color: var(--dark-color);
+  font-size: 35px;
+}
+
+.title {
+  font-size: 80px;
+  opacity: 0.8;
+  color: var(--dark-color);
+  font-family: var(--title-font-family);
+}
+
+@media (max-width: 920px) {
+  .btn-light {
+    margin: 5px;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .title,
+  .hero .title {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-light {
+    font-size: 15px;
+    margin: 20px 60px;
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .header-content {
+    margin-left: 10px;
+    padding: 0px 20px;
+  }
+
+  .header-content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .header-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 120px 30px 50px 30px;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  .title,
+  .hero-title {
+    font-size: 50px;
+    text-align: center;
+  }
 }
