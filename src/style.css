@@ -40,12 +40,14 @@ p {
   opacity: 0.7;
   font-family: var(--paragraph-font-family);
   background-color: var(--light-color) !important;
+  color: var(--dark-color);
   border-radius: 10px !important;
   transition: all 100ms ease-in-out;
 }
 
 .btn-light:hover {
   background-color: var(--dark-color) !important;
+  color: var(--light-color);
 }
 
 .footer-title {
@@ -66,10 +68,6 @@ p {
   opacity: 0.7;
 }
 
-.header-content p {
-  opacity: 0.7;
-}
-
 .header-hr {
   border: 3px solid var(--dark-color);
 }
@@ -85,6 +83,12 @@ p {
   background-repeat: no-repeat;
   padding: 180px 60px 120px 60px;
   line-height: 1.5;
+}
+
+.hero h3 {
+  font-family: var(--paragraph-font-family);
+  font-size: 20px;
+  opacity: 0.7;
 }
 
 .hero .title {
@@ -124,6 +128,7 @@ p {
   margin: 0 auto;
   display: block;
   text-align: center;
+  color: var(--primary-color);
 }
 
 .info-section i {
