@@ -158,7 +158,7 @@ p {
 }
 
 .header-content h2,
-.house-hero h2 {
+.house-tagline {
   color: var(--dark-color);
   font-family: var(--subtitle-font-family);
   font-size: 30px;
