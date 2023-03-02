@@ -60,17 +60,27 @@ p {
   border-radius: 10px;
 }
 
-.amenities-section {
-  background-color: var(--dark-color);
+.amenities-content {
+  margin: 0px 350px;
 }
 
-.amenities-section .title {
+.amenities-content p {
+  font-size: 20px;
+}
+
+.amenities-section {
+  background-color: var(--light-color);
+}
+
+.amenities-section .house-icons {
+  font-size: 35px;
   color: var(--dark-color);
 }
 
-.amenities-section .subtitle,
-.amenities-section p {
-  color: var(--light-color);
+.amenities-section .subtitle {
+  font-family: var(--title-font-family);
+  color: var(--dark-color);
+  -webkit-text-stroke: 1px var(--primary-color);
 }
 
 .btn-light {
@@ -88,6 +98,30 @@ p {
 .btn-light:hover {
   background-color: var(--dark-color) !important;
   color: var(--light-color);
+}
+
+.directions-section {
+  background-color: var(--dark-color);
+}
+
+.directions-section a {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.directions-section a:hover {
+  text-decoration: none;
+}
+
+.directions-section .title,
+.directions-section .subtitle,
+.directions-section p {
+  color: var(--light-color);
+}
+
+.directions-section p {
+  font-size: 20px;
+  margin: 0px 150px;
 }
 
 .footer-title {
@@ -249,6 +283,23 @@ p {
   background: var(--light-color);
 }
 
+.stay-content .booking-info {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.stay-content i {
+  color: var(--dark-color);
+}
+
+.stay-content p {
+  font-size: 25px;
+}
+
+.stay-section {
+  margin: 0px 300px;
+}
+
 .subtitle {
   font-family: var(--subtitle-font-family);
   color: var(--dark-color);
@@ -263,6 +314,10 @@ p {
 }
 
 @media (max-width: 920px) {
+  .amenities-content {
+    margin: 0px;
+  }
+
   .btn-light {
     margin: 5px;
     font-size: 14px;
@@ -271,6 +326,12 @@ p {
 
   .owner-story-content {
     margin: 30px 70px;
+  }
+
+  .owner-story-section,
+  .house-info,
+  .amenities-section {
+    padding: 10px;
   }
 
   .subtitle {
@@ -290,9 +351,14 @@ p {
 
   .btn-light {
     font-size: 15px;
-    margin: 20px 60px;
+    margin: 5px 60px;
     padding: 10px 20px;
     display: block;
+  }
+
+  .directions-section p {
+    font-size: 16px;
+    margin: 0px 10px;
   }
 
   .header-content {
@@ -321,8 +387,23 @@ p {
     font-size: 12px;
   }
 
-  .owner-story-section {
+  .owner-story-section,
+  .house-info,
+  .amenities-section {
     padding: 10px;
+  }
+
+  .stay-content .booking-info {
+    font-size: 14px;
+  }
+
+  .stay-content p {
+    font-size: 18px;
+  }
+
+  .stay-section,
+  .amenities-content {
+    margin: 0px 20px;
   }
 
   .subtitle {
@@ -334,5 +415,10 @@ p {
   .hero-title {
     font-size: 50px;
     text-align: center;
+  }
+
+  .house-info {
+    padding: 70px 60px 50px 60px;
+    line-height: 1.5;
   }
 }
