@@ -60,12 +60,9 @@ p {
   border-radius: 10px;
 }
 
-.amenities-content {
-  margin: 0px 350px;
-}
-
 .amenities-content p {
   font-size: 20px;
+  margin: 0px 350px;
 }
 
 .amenities-section {
@@ -81,6 +78,30 @@ p {
   font-family: var(--title-font-family);
   color: var(--dark-color);
   -webkit-text-stroke: 1px var(--primary-color);
+}
+
+.bay-hero {
+  background: -webkit-linear-gradient(
+      rgba(47, 72, 88, 0.7),
+      rgba(116, 154, 142, 0.6)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/699/original/bay.png?1677790163");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 220px 60px 180px 60px;
+  line-height: 1.5;
+}
+
+.beach-hero {
+  background: -webkit-linear-gradient(
+      rgba(47, 72, 88, 0.7),
+      rgba(116, 154, 142, 0.6)
+    ),
+    url("https://i.ibb.co/KWjNQvt/updated-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 220px 60px 180px 60px;
+  line-height: 1.5;
 }
 
 .btn-light {
@@ -179,18 +200,6 @@ p {
 .house-description {
   margin: 10px 100px;
   line-height: 30px;
-}
-
-.house-hero {
-  background: -webkit-linear-gradient(
-      rgba(47, 72, 88, 0.7),
-      rgba(116, 154, 142, 0.6)
-    ),
-    url("https://i.ibb.co/KWjNQvt/updated-header.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 220px 60px 180px 60px;
-  line-height: 1.5;
 }
 
 .house-image {
@@ -314,8 +323,9 @@ p {
 }
 
 @media (max-width: 920px) {
-  .amenities-content {
-    margin: 0px;
+  .amenities-content p {
+    margin: 0px 150px;
+    font-size: 16px;
   }
 
   .btn-light {
@@ -332,6 +342,10 @@ p {
   .house-info,
   .amenities-section {
     padding: 10px;
+  }
+
+  .stay-section {
+    margin: 0px 20px;
   }
 
   .subtitle {
@@ -351,7 +365,7 @@ p {
 
   .btn-light {
     font-size: 15px;
-    margin: 5px 60px;
+    margin: 0px 50px;
     padding: 10px 20px;
     display: block;
   }
@@ -402,7 +416,7 @@ p {
   }
 
   .stay-section,
-  .amenities-content {
+  .amenities-content p {
     margin: 0px 20px;
   }
 
