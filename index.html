@@ -108,16 +108,16 @@
         </ul>
       </div>
     </nav>
-    <div class="hero">
+    <header class="hero">
       <div class="header-content container">
-         <h2 class="tagline text-center">l i f e ' s ~ b e t t e r ~ b a r e f o o t</h2>
         <h1 class="title text-center">Barefoot Rentals</h1>
-        <h3 class="text-center subtitle mt-3">
-          Find out more about our properties, golf cart & boat rentals, 
+        <h2 class="tagline text-center">l i f e ' s ~ b e t t e r ~ b a r e f o o t</h2>
+        <h3 class="text-center subtitle m-3">
+          Find out more about our properties, golf cart & boat rental recommendations, 
           restaurant & grocery suggestions, things to do around
           the island, & more!
         </h3>
-        <div class="home-buttons">
+        <!-- <div class="home-buttons">
         <a
           href="index.html#rental-properties"
           class="btn btn-light"
@@ -130,13 +130,18 @@
           title="Contact Barefoot Rentals"
           >Contact Us</a
         >
-        </div>
-        </div>
+        </div> -->
+      <div class="down-arrow mt-5">
+        <a href="#rental-properties" class="text-center tm-down-arrow-link">
+          <i class="fas fa-3x fa-caret-down tm-down-arrow text-center"></i>
+        </a>
+      </div>  
       </div>
-    </div>
+      </div>
+    </header>
     <div class="container m-4">
-      <div class="rental-properties">
-        <h1 id="rental-properties" class="text-center title mb-5 mt-2">
+      <div class="rental-properties" id="rental-properties">
+        <h1 class="text-center title mb-5 mt-2">
           Our Rental Properties
         </h1>
         <div class="row">
@@ -150,16 +155,16 @@
               />
             <h3 class="subtitle text-center m-2">Barefoot Beach</h3>
             <p class="house-description text-center">
-              Newly renovated beach house located on the southern 
-              end of Elbow Cay in the Abacos, Bahamas. It sleeps up to 16, featuring 
-              6 bedrooms and 4 bathrooms. It's located in Marnie's Creek.
+              Newly renovated two-story, oceanfront beach house located in Marnie's Creek on the southern 
+              end of Elbow Cay in the Abacos, Bahamas. The house sleeps up to 16, featuring 
+              6 bedrooms and 4 bathrooms. 
             </p>
             <div class="house-buttons">
             <a
                 href="beach.html"
                 title="Find out more"
                 class="btn btn-info"
-                >Discover Barefoot Beach</a
+                >Find Out More</a
               >
               </div>
           </div>
@@ -173,16 +178,16 @@
               />
               <h3 class="subtitle text-center m-2">Barefoot Bay</h3>
             <p class="house-description text-center">
-              Newly renovated beach house located in Hope Town on the southern end of 
-              Elbow Cay in the Abacos, Bahamas. It sleeps up to 16, featuring 6 bedrooms 
-              and 4 bathrooms. It's located in Dorros Cove.
+              Newly renovated beach house with three separate pods located in Dorros Cove on the southern end of 
+              Elbow Cay in the Abacos, Bahamas. The house sleeps up to 16, featuring 6 bedrooms 
+              and 4 bathrooms. 
             </p>
             <div class="house-buttons">
               <a
                 href="bay.html"
                 title="Find out more"
                 class="btn btn-info"
-                >Discover Barefoot Bay</a
+                >Find Out More</a
               >
             </div>
           </div>
@@ -190,26 +195,28 @@
       </div>
       </div>
       <hr />
-      <div class="container info-section mb-4">
+      <div class="container">
+        <div class="info-section mb-4">
+        <h3 class="title text-center mb-4">Further Information</h3>
         <div class="row">
-          <div class="col-md-4">
-            <h3 class="subtitle text-center">Recommendations</h3>
+          <div class="col-xl-4">
+            <h3 class="subtitle text-center"><i class="fa-solid fa-square-check"></i> Recommendations</h3>
             <p class="text-center">
               If you're looking for golf cart, boat, or food recommendations,
               we've got you covered!
             </p>
             <a href="recs.html" title="Recommendations">Find Out More</a>
           </div>
-          <div class="col-md-4">
-            <h3 class="subtitle text-center">Things To Do</h3>
+          <div class="col-xl-4">
+            <h3 class="subtitle text-center"><i class="fa-solid fa-list-ul"></i> Things To Do</h3>
             <p class="text-center">
               Discover some of best things to do around the island and on
               surrounding islands!
             </p>
             <a href="todo.html" title="Things To Do">Find Out More</a>
           </div>
-          <div class="col-md-4">
-            <h3 class="subtitle text-center">About Us</h3>
+          <div class="col-xl-4">
+            <h3 class="subtitle text-center"><i class="fa-regular fa-face-smile"></i> About Us</h3>
             <p class="text-center">
               Meet the owners, property manager, & house caretakers, & discover
               the owners' story!
@@ -218,17 +225,18 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
     <footer>
-      <div class="container">
+      <div class="container mt-2">
         <div class="row">
           <div class="col-xs-6 col-sm-3 column">
             <h4 class="footer-title">Find Out More</h4>
             <ul class="list-unstyled">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="beach.html">Barefoot Beach</a></li>
-              <li><a href="bay.html">Barefoot Bay</a></li>
-              <li><a href="">BLAH</a></li>
+              <li><a href="about.html" title="About Us">About Us</a></li>
+              <li><a href="index.html#rental-properties" title="Our Properties">Our Properties</a></li>
+              <li><a href="recs.html" title="Recommendations">Recommendations</a></li>
+              <li><a href="todo.html" title="Things To Do">Things To Do</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-3 column">
@@ -237,20 +245,20 @@
             <ul class="list-unstyled">
               <li>
                 <a href="mailto:barefootbeachelbowcay@gmail.com"
-                  >barefootbeachelbowcay@gmail.com</a
+                  ><i class="fa-regular fa-envelope"></i> barefootbeachelbowcay@gmail.com</a
                 >
               </li>
               <li>
                 <a href="mailto:barefootbayabacobahamas@gmail.com"
-                  >barefootbayabacobahamas@gmail.com</a
+                  ><i class="fa-regular fa-envelope"></i> barefootbayabacobahamas@gmail.com</a
                 >
               </li>
-              <li class="text-muted">+1 757-513-6330</li>
+              <li class="text-muted"><a href="tel:17575136330"><i class="fa-solid fa-phone"></i> +1 757-513-6330</a></li>
             </ul>
           </div>
-          <p>This website was coded by Lexi Dillon and is open-sourced.</p>
         </div>
       </div>
+      <p>This website was coded by Lexi Dillon and is <a href="https://github.com/lexidillon/barefoot-rentals" target="_blank" title="Barefoot Rentals GitHub Repo">open-sourced</a>.</p>
     </footer>
   </body>
 </html>
