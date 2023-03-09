@@ -6,6 +6,12 @@
   --dark-color: #07588a;
   --primary-color: #bfe9db;
   --accent-color: #6ac1b8;
+
+  /* // Second option */
+  /* --light-color: #ecfffb;
+  --dark-color: #1e6262;
+  --primary-color: #2d767f;
+  --accent-color: #b4f1f1; */
 }
 
 footer {
@@ -107,16 +113,29 @@ p {
   line-height: 1.5;
 }
 
-.btn-light {
+.btn {
   font-size: 18px;
   margin: 15px;
   padding: 10px 20px;
   opacity: 0.7;
   font-family: var(--paragraph-font-family);
-  background-color: var(--light-color) !important;
-  color: var(--dark-color);
   border-radius: 10px !important;
   transition: all 100ms ease-in-out;
+}
+
+.btn-info {
+  background-color: var(--dark-color) !important;
+  color: var(--light-color);
+}
+
+.btn-info:hover {
+  background-color: var(--light-color) !important;
+  color: var(--dark-color);
+}
+
+.btn-light {
+  background-color: var(--light-color) !important;
+  color: var(--dark-color);
 }
 
 .btn-light:hover {
@@ -199,16 +218,11 @@ p {
   padding: 0px 60px;
 }
 
-.header-content h2,
 .house-tagline {
   color: var(--dark-color);
   font-family: var(--subtitle-font-family);
   font-size: 30px;
   opacity: 0.7;
-}
-
-.header-hr {
-  border: 3px solid var(--dark-color);
 }
 
 .hero {
@@ -224,10 +238,17 @@ p {
   line-height: 1.5;
 }
 
+.home-buttons,
+.house-buttons {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
 .hero h3 {
-  font-family: var(--paragraph-font-family);
-  font-size: 20px;
+  font-family: var(--title-font-family);
   opacity: 0.7;
+  font-size: 22px;
 }
 
 .hero .title {
@@ -242,18 +263,14 @@ p {
 .house-description {
   margin: 10px 100px;
   line-height: 30px;
+  font-family: var(--paragraph-font-family);
+  color: var(--dark-color);
 }
 
 .house-image {
-  transition: all 150ms ease-in-out;
   display: block;
   margin: 0 auto;
   border-radius: 15px;
-}
-
-.house-image:hover {
-  cursor: pointer;
-  transform: scale(0.9);
 }
 
 .house-info,
@@ -263,22 +280,16 @@ p {
   line-height: 1.5;
 }
 
-.house-links {
-  margin: 20px;
-}
-
 .info-section {
   padding: 40px;
   margin: 10px 30px;
-  background-color: rgb(7, 88, 138, 0.9);
-  border-radius: 5px;
 }
 
 .info-section a {
   margin: 0 auto;
   display: block;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--accent-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -291,12 +302,9 @@ p {
   color: var(--dark-color);
 }
 
-.info-section .subtitle {
-  color: var(--primary-color);
-}
-
+.info-section .subtitle,
 .info-section p {
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .navbar {
@@ -354,7 +362,15 @@ p {
 .subtitle {
   font-family: var(--subtitle-font-family);
   color: var(--dark-color);
-  font-size: 35px;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+.tagline {
+  font-family: "Cedarville Cursive", cursive;
+  color: var(--dark-color);
+  opacity: 0.5;
+  word-spacing: 5px;
 }
 
 .title {
@@ -420,11 +436,6 @@ p {
   .header-content {
     margin-left: 10px;
     padding: 0px 20px;
-  }
-
-  .header-content h2 {
-    font-size: 20px;
-    text-align: center;
   }
 
   .header-content p {
