@@ -373,11 +373,15 @@ p {
   margin: 0 auto;
   display: block;
   color: var(--light-color);
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .recs-body a:hover {
   text-decoration: none;
+}
+
+.recs-body .breakers {
+  border: 2px solid var(--accent-color);
 }
 
 .recs-body h3,
@@ -397,9 +401,12 @@ p {
   font-family: var(--subtitle-font-family);
 }
 
+.recs-body li a {
+  line-height: 1.8;
+}
+
 .recs-body ul {
-  list-style-position: inside;
-  list-style-type: circle;
+  list-style: none;
 }
 
 .rental-properties {
