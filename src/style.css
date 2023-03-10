@@ -54,6 +54,11 @@ hr {
   border: 3px solid var(--dark-color);
 }
 
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
 p {
   color: black;
   font-family: var(--paragraph-font-family);
@@ -76,7 +81,7 @@ p {
 
 .amenities-content p {
   font-size: 20px;
-  margin: 0px 350px;
+  margin: 20px;
 }
 
 .amenities-section {
@@ -189,7 +194,7 @@ p {
 
 .directions-section p {
   font-size: 20px;
-  margin: 0px 150px;
+  margin: 20px;
 }
 
 .down-arrow a {
@@ -359,6 +364,28 @@ p {
   background: var(--light-color);
 }
 
+.recs-body {
+  background-color: var(--dark-color);
+  padding: 10px 20px;
+}
+
+.recs-body h3,
+.recs-body p,
+.recs-body .subtitle {
+  color: var(--light-color);
+}
+
+.recs-body h3 {
+  font-family: var(--subtitle-font-family);
+  font-size: 45px;
+  -webkit-text-stroke: 1px var(--primary-color);
+}
+
+.recs-body h4 {
+  color: var(--primary-color);
+  font-family: var(--subtitle-font-family);
+}
+
 .rental-properties {
   padding: 20px 40px;
 }
@@ -373,7 +400,7 @@ p {
 }
 
 .stay-content p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .stay-section {
