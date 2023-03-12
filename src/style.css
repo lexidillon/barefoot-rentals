@@ -365,14 +365,16 @@ p {
 }
 
 .recs-body {
-  background-color: var(--dark-color);
   padding: 10px 20px;
 }
 
 .recs-body a {
+  color: var(--dark-color);
+}
+
+.recs-body li a {
   margin: 0 auto;
   display: block;
-  color: var(--light-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -381,23 +383,24 @@ p {
 }
 
 .recs-body .breakers {
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--dark-color);
+  opacity: 0.4;
 }
 
 .recs-body h3,
 .recs-body ul,
 .recs-body .subtitle {
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 .recs-body h3 {
-  font-family: var(--subtitle-font-family);
+  font-family: var(--title-font-family);
   font-size: 45px;
-  -webkit-text-stroke: 1px var(--primary-color);
+  -webkit-text-stroke: 1px var(--accent-color);
 }
 
 .recs-body h4 {
-  color: var(--primary-color);
+  color: var(--dark-color);
   font-family: var(--subtitle-font-family);
 }
 
@@ -407,6 +410,19 @@ p {
 
 .recs-body ul {
   list-style: none;
+}
+
+.recs-hero {
+  background-color: var(--dark-color);
+}
+
+.recs-hero .down-arrow i {
+  border: 2px solid var(--light-color);
+}
+
+.recs-hero .title,
+.recs-hero .subtitle {
+  color: var(--light-color);
 }
 
 .rental-properties {
