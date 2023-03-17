@@ -395,8 +395,8 @@ p {
 
 .recs-body h3 {
   font-family: var(--title-font-family);
-  font-size: 45px;
   -webkit-text-stroke: 1px var(--accent-color);
+  font-size: 45px;
 }
 
 .recs-body h4 {
