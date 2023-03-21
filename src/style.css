@@ -413,16 +413,47 @@ p {
 }
 
 .recs-hero {
-  background-color: var(--dark-color);
-}
-
-.recs-hero .down-arrow i {
-  border: 2px solid var(--light-color);
+  background-color: rgb(225, 246, 244, 0.8);
 }
 
 .recs-hero .title,
 .recs-hero .subtitle {
+  color: var(--dark-color);
+}
+
+.recs-hero .subtitle {
+  margin: 0px 80px;
+  opacity: 0.8;
+}
+
+.recs-subhero-border {
+  padding: 30px 10px;
+  background-color: rgb(7, 88, 138, 0.8);
+  border-radius: 14px;
+}
+
+.recs-subhero {
+  background-color: rgb(225, 246, 244, 0.7);
+  padding: 20px 10px;
+}
+
+.recs-subhero .rec-item a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
   color: var(--light-color);
+  opacity: 0.8;
+}
+
+.recs-subhero .rec-item a:hover {
+  color: var(--accent-color);
+}
+
+.recs-subhero h4 {
+  font-size: 22px;
+}
+
+.recs-subhero i {
+  font-size: 35px;
 }
 
 .rental-properties {
