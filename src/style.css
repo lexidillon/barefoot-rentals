@@ -421,12 +421,12 @@ p {
 }
 
 .recs-hero {
-  background-color: rgb(225, 246, 244, 0.8);
+  background-color: var(--dark-color);
 }
 
 .recs-hero .title,
 .recs-hero .subtitle {
-  color: var(--dark-color);
+  color: var(--light-color);
 }
 
 .recs-hero .subtitle {
@@ -435,14 +435,14 @@ p {
 }
 
 .recs-subhero {
-  background-color: rgb(225, 246, 244, 0.7);
   padding: 20px 10px;
 }
 
 .recs-subhero .rec-item {
-  padding: 30px 10px;
-  background-color: rgb(7, 88, 138, 0.7);
+  padding: 20px 5px;
+  background-color: var(--light-color);
   border-radius: 14px;
+  opacity: 0.9;
 }
 
 .recs-subhero .rec-item:hover {
@@ -452,20 +452,16 @@ p {
 .recs-subhero .rec-item a {
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  color: var(--light-color);
+  color: var(--dark-color);
   opacity: 0.8;
 }
 
-.recs-subhero .rec-item a:hover {
-  color: var(--dark-color);
-}
-
 .recs-subhero h4 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .recs-subhero i {
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .rental-properties {
