@@ -67,10 +67,13 @@ p {
 
 .about-hero,
 .recs-hero,
-.todo-hero,
-.contact-section {
+.todo-hero {
   padding: 180px 60px 110px 60px;
   line-height: 1.5;
+}
+
+.contact-section {
+  padding: 150px 60px 70px 60px;
 }
 
 .about-image {
