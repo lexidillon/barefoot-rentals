@@ -420,10 +420,6 @@ p {
   list-style: none;
 }
 
-.recs-hero {
-  background-color: var(--light-color);
-}
-
 .recs-hero .title,
 .recs-hero .subtitle {
   color: var(--dark-color);
@@ -517,6 +513,26 @@ p {
   opacity: 0.8;
   color: var(--dark-color);
   font-family: var(--title-font-family);
+}
+
+.todo-hero {
+  background-color: var(--dark-color);
+}
+
+.todo-hero .title,
+.todo-hero .subtitle {
+  color: var(--light-color);
+}
+
+.todo-hero .down-arrow i {
+  color: var(--dark-color);
+  background-color: var(--light-color);
+}
+
+.todo-hero .down-arrow i:hover {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  border: 1px solid var(--light-color);
 }
 
 .todo-recs {
