@@ -25,7 +25,6 @@
       src="https://kit.fontawesome.com/610802e96b.js"
       crossorigin="anonymous"
     ></script>
-    <script src="src/app.js"></script>
     <link rel="icon" href="https://i.ibb.co/0ZWdYHh/barefoot.png" />
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -122,18 +121,81 @@
       </div>
     </header>
     <div class="todo-recs mt-4" id="activities">
-      <h3 class="subtitle text-center">
-        Things to do and places to see on Elbow Cay and surrounding islands only
-        a boat ride away
-      </h3>
-      <p class="text-center m-2">
-        INSERT PHOTO CAROUSEL OF THINGS TO DO FROM BAREFOOT BEACH WEBSITE
-        MENTION: Relax at Tahiti Beach / Visit Man 'O War Cay / Visit Jonny's
-        Cay / Visit No Name Cay aka Pig Island / Snorkel or Dive at Pelican Cay
-        & Fowl Cay / Explore Hope Town (local shops, businesses, and
-        restaurants) / Visit the Hope Town Lighthouse / Go fishing / Visit Guana
-        Cay / etc.
-      </p>
+      <h3 class="subtitle text-center">Explore Elbow Cay & nearby islands</h3>
+      <h5 class="text-center">
+        Things to do and places to see on Elbow Cay and on other islands in the
+        Abacos only a boat ride away!
+      </h5>
+    </div>
+
+    <div class="slideshow-container mt-4">
+      <div class="mySlides">
+        <div class="numbertext">1 / 9</div>
+        <img src="images/tahitibeach.jpg" style="width: 100%" />
+        <div class="text">Relax at Tahiti Beach</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 9</div>
+        <img src="images/manowar.jpg" style="width: 100%" />
+        <div class="text">Visit Man 'O War Cay</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 9</div>
+        <img src="images/jonnys.jpg" style="width: 100%" />
+        <div class="text">Decompress at Jonny's Cay</div>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 9</div>
+        <img src="images/pigisland.jpg" style="width: 100%" />
+        <div class="text">Meet the pigs at No Name Cay</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 9</div>
+        <img src="images/snorkeling.jpg" style="width: 100%" />
+        <div class="text">Snorkel at Pelican Cay</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 9</div>
+        <img src="images/hopetown.jpg" style="width: 100%" />
+        <div class="text">Explore Hope Town</div>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 9</div>
+        <img src="images/lighthouse.jpg" style="width: 100%" />
+        <div class="text">Visit the Hope Town Lighthouse</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">8 / 9</div>
+        <img src="images/fishing.jpg" style="width: 100%" />
+        <div class="text">Go fishing around the islands</div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">9 / 9</div>
+        <img src="images/guana.jpg" style="width: 100%" />
+        <div class="text">Unwind on Guana Cay</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
     </div>
 
     <div class="local-businesses mt-4">
@@ -141,9 +203,10 @@
         <div class="row">
           <div class="col-sm-6">
             <img
-              src=""
+              src="https://i.ibb.co/wrHrhkF/Image-2-4-21-at-6-17-PM.jpg"
               alt="Map of Local Businesses in Hope Town"
               title="Map of Local Businesses in Hope Town"
+              class="about-image"
             />
           </div>
           <div class="col-sm-6">
@@ -216,5 +279,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="src/app.js"></script>
   </body>
 </html>

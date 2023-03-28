@@ -552,6 +552,103 @@ p {
   margin: 10px 120px;
 }
 
+.todo-recs h5 {
+  font-family: var(--paragraph-font-family);
+  color: var(--dark-color);
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides img {
+  border-radius: 10px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Caption text and number text */
+.text,
+.numbertext {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  padding: 8px 12px;
+}
+
+.numbertext {
+  font-size: 12px;
+  top: 0;
+  color: #e1f6f4;
+  opacity: 0.8;
+}
+
+.text {
+  font-size: 30px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  -webkit-text-stroke: 1.5px #07588a;
+  color: #e1f6f4;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* On smaller screens, decrease text size */
+@media (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
 @media (max-width: 920px) {
   .amenities-content p {
     margin: 0px 150px;
