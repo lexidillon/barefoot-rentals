@@ -72,10 +72,6 @@ p {
   line-height: 1.5;
 }
 
-.contact-section {
-  padding: 150px 60px 70px 60px;
-}
-
 .about-image {
   margin: 0 auto;
   display: block;
@@ -157,6 +153,15 @@ p {
   color: var(--light-color);
 }
 
+.cart-section,
+.boat-section,
+.food-section,
+.misc-section {
+  background-color: rgb(225, 246, 244, 0.4);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
 .contact-page-icons {
   text-align: left;
 }
@@ -169,6 +174,10 @@ p {
 
 .contact-page-icons a:hover {
   color: var(--accent-color);
+}
+
+.contact-section {
+  padding: 150px 60px 70px 60px;
 }
 
 .contact-text {
@@ -396,6 +405,7 @@ p {
 .recs-body .breakers {
   border: 2px solid var(--dark-color);
   opacity: 0.4;
+  margin: 0px 350px;
 }
 
 .recs-body h3,
