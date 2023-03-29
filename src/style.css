@@ -78,6 +78,11 @@ p {
   border-radius: 10px;
 }
 
+.activeSlide,
+.dot:hover {
+  background-color: #717171;
+}
+
 .amenities-content p {
   font-size: 20px;
   margin: 20px;
