@@ -179,7 +179,8 @@ p {
   transition: all 100ms ease-in-out;
 }
 
-.contact-page-icons a:hover {
+.contact-page-icons a:hover,
+.stay-section a:hover {
   color: var(--accent-color);
 }
 
@@ -392,7 +393,9 @@ p {
   padding: 10px 20px;
 }
 
-.recs-body a {
+.recs-body a,
+.info-section a,
+.stay-section a {
   color: var(--dark-color);
 }
 
@@ -402,7 +405,8 @@ p {
   transition: all 100ms ease-in-out;
 }
 
-.recs-body a:hover {
+.recs-body a:hover,
+.stay-section a:hover {
   text-decoration: none;
 }
 
