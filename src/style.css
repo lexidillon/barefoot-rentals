@@ -17,7 +17,7 @@
 footer {
   background-color: rgb(225, 246, 244, 0.7);
   padding: 10px 15px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 footer a,
@@ -111,7 +111,7 @@ p {
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/699/original/bay.png?1677790163");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 220px 60px 180px 60px;
+  padding: 270px 60px 200px 60px;
   line-height: 1.5;
 }
 
@@ -123,7 +123,7 @@ p {
     url("https://i.ibb.co/KWjNQvt/updated-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 220px 60px 180px 60px;
+  padding: 270px 60px 200px 60px;
   line-height: 1.5;
 }
 
@@ -193,7 +193,8 @@ p {
   font-family: var(--subtitle-font-family);
 }
 
-.directions-section {
+.directions-section,
+.info-section {
   background-color: rgb(7, 88, 138, 0.9);
 }
 
@@ -263,7 +264,7 @@ p {
     url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/213/original/footprints_edited-4.jpg?1664567183");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 180px 60px 120px 60px;
+  padding: 220px 60px 140px 60px;
   line-height: 1.5;
 }
 
@@ -277,10 +278,10 @@ p {
 .hero h3 {
   font-family: var(--title-font-family);
   opacity: 0.8;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  margin: 5px 80px;
+  margin: 5px 120px;
 }
 
 .hero .title {
@@ -315,15 +316,15 @@ p {
 }
 
 .info-section {
-  padding: 50px 40px;
-  margin: 10px 30px;
+  padding: 80px 50px;
+  margin: 70px 30px;
 }
 
 .info-section a {
   margin: 0 auto;
   display: block;
   text-align: center;
-  color: var(--accent-color);
+  color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -333,7 +334,7 @@ p {
 
 .info-section i {
   font-size: 60px;
-  color: var(--dark-color);
+  color: var(--light-color);
   margin: 0 auto;
   display: block;
   opacity: 0.9;
@@ -345,8 +346,9 @@ p {
 }
 
 .info-section .subtitle,
-.info-section p {
-  color: var(--dark-color);
+.info-section p,
+.info-section .title {
+  color: var(--light-color);
 }
 
 .info-section .subtitle {
@@ -394,7 +396,6 @@ p {
 }
 
 .recs-body a,
-.info-section a,
 .stay-section a {
   color: var(--dark-color);
 }
@@ -483,6 +484,11 @@ p {
 
 .rental-properties {
   padding: 20px 40px;
+  margin: 40px 0px;
+}
+
+.rental-properties p {
+  line-height: 1.9;
 }
 
 #rental-properties,
@@ -526,10 +532,11 @@ p {
   color: var(--dark-color);
   opacity: 0.7;
   word-spacing: 5px;
+  margin: 20px 0px 30px 0px;
 }
 
 .title {
-  font-size: 70px;
+  font-size: 75px;
   opacity: 0.8;
   color: var(--dark-color);
   font-family: var(--title-font-family);
@@ -631,8 +638,8 @@ p {
   bottom: 8px;
   width: 100%;
   text-align: center;
-  -webkit-text-stroke: 1.5px #07588a;
-  color: #e1f6f4;
+  background: rgb(255, 255, 255, 0.7);
+  color: var(--dark-color);
 }
 
 /* The dots/bullets/indicators */
