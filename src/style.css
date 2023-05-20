@@ -100,7 +100,7 @@ p {
 .amenities-section .subtitle {
   font-family: var(--title-font-family);
   color: var(--dark-color);
-  -webkit-text-stroke: 1px var(--primary-color);
+  /* -webkit-text-stroke: 1px var(--primary-color); */
 }
 
 .bay-hero {
@@ -161,7 +161,7 @@ p {
 .cart-section,
 .boat-section,
 .food-section,
-.misc-section {
+.other-section {
   background-color: rgb(225, 246, 244, 0.4);
   padding: 30px 20px;
   border-radius: 10px;
@@ -350,12 +350,9 @@ p {
   font-size: 25px;
 }
 
-.info-section .title {
-  -webkit-text-stroke: 1px var(--primary-color);
-}
-
 .navbar {
   background: var(--light-color) !important;
+  padding: 25px 0px !important;
 }
 
 .navbar-brand img {
@@ -421,7 +418,6 @@ p {
 
 .recs-body h3 {
   font-family: var(--title-font-family);
-  -webkit-text-stroke: 1px var(--accent-color);
   font-size: 45px;
 }
 
@@ -488,7 +484,7 @@ p {
 #carts,
 #boats,
 #food,
-#misc,
+#other-recs,
 #activities,
 #beach-stay,
 #bay-stay {
