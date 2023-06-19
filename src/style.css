@@ -93,7 +93,6 @@ p {
 }
 
 .amenities-content .title {
-  margin-top: 45px;
   margin-bottom: 45px;
 }
 
@@ -118,7 +117,7 @@ p {
       rgba(47, 72, 88, 0.7),
       rgba(116, 154, 142, 0.6)
     ),
-    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/069/699/original/bay.png?1677790163");
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/086/371/original/baypuzzle2.jpg?1687202901");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 270px 60px 200px 60px;
@@ -175,12 +174,17 @@ p {
 }
 
 .cart-section,
-.boat-section,
-.food-section,
-.other-section {
+.food-section {
   background-color: rgb(225, 246, 244, 0.4);
   padding: 60px 30px;
   border-radius: 10px;
+  margin: 45px;
+}
+
+.cart-section,
+.food-section,
+.boat-section,
+.other-section {
   margin: 45px;
 }
 
@@ -268,6 +272,30 @@ p {
   color: var(--dark-color);
 }
 
+.gallery-section {
+  background-color: var(--dark-color);
+  padding: 45px 0px;
+  margin: 45px 0px 0px 0px;
+}
+
+.gallery-section a {
+  color: var(--light-color);
+}
+
+.gallery-section a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.gallery-section p {
+  color: var(--light-color);
+  text-align: center;
+}
+
+.gallery-section .title {
+  color: var(--light-color);
+}
+
 .header-content {
   padding: 0px 60px;
 }
@@ -275,7 +303,8 @@ p {
 .house-tagline {
   color: var(--dark-color);
   font-family: var(--subtitle-font-family);
-  font-size: 30px;
+  font-size: 40px;
+  -webkit-text-stroke: 1px var(--light-color);
   opacity: 0.7;
 }
 
@@ -443,12 +472,6 @@ p {
 .recs-body a:hover,
 .stay-section a:hover {
   text-decoration: none;
-}
-
-.recs-body .breakers {
-  border: 2px solid var(--dark-color);
-  opacity: 0.4;
-  margin: 0px 350px;
 }
 
 .recs-body h3,
