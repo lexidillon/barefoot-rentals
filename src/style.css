@@ -17,7 +17,7 @@
 footer {
   background-color: rgb(225, 246, 244, 0.7);
   padding: 45px 15px;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 footer a,
@@ -83,9 +83,18 @@ p {
   background-color: #717171;
 }
 
+.amenities-content {
+  padding-bottom: 75px;
+}
+
 .amenities-content p {
   font-size: 20px;
   margin: 20px;
+}
+
+.amenities-content .title {
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .amenities-section {
@@ -101,6 +110,7 @@ p {
   font-family: var(--title-font-family);
   color: var(--dark-color);
   /* -webkit-text-stroke: 1px var(--primary-color); */
+  margin: 40px;
 }
 
 .bay-hero {
@@ -193,6 +203,11 @@ p {
   font-family: var(--subtitle-font-family);
 }
 
+.directions-section {
+  padding: 75px;
+  margin: 50px;
+}
+
 .directions-section,
 .info-section {
   background-color: rgb(7, 88, 138, 0.9);
@@ -215,7 +230,11 @@ p {
 
 .directions-section p {
   font-size: 20px;
-  margin: 20px;
+  margin: 35px;
+}
+
+.direction-section .title {
+  padding: 45px;
 }
 
 .down-arrow a {
@@ -527,7 +546,15 @@ p {
 }
 
 .stay-section {
-  margin: 0px 300px;
+  margin: 120px 300px;
+}
+
+.stay-section .subtitle {
+  margin-top: 35px;
+}
+
+.stay-section .title {
+  margin: 60px;
 }
 
 .subtitle {
