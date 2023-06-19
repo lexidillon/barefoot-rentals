@@ -137,6 +137,10 @@ p {
   line-height: 1.5;
 }
 
+.breakers-todo {
+  margin: 75px;
+}
+
 .btn {
   font-size: 18px;
   margin: 15px;
@@ -175,8 +179,9 @@ p {
 .food-section,
 .other-section {
   background-color: rgb(225, 246, 244, 0.4);
-  padding: 30px 20px;
+  padding: 60px 30px;
   border-radius: 10px;
+  margin: 45px;
 }
 
 .contact-page-icons {
@@ -490,6 +495,7 @@ p {
   border-radius: 14px;
   border: 2px solid rgb(106, 193, 184, 0.7);
   opacity: 0.9;
+  margin-top: 30px;
 }
 
 .recs-subhero .rec-item:hover {
@@ -617,6 +623,12 @@ p {
   color: var(--dark-color);
   font-size: 16px;
   opacity: 0.8;
+  margin-bottom: 35px;
+}
+
+.todo-recs .subtitle {
+  margin-top: 65px;
+  margin-bottom: 15px;
 }
 
 .mySlides {
