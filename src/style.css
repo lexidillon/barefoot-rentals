@@ -287,6 +287,10 @@ p {
   text-decoration: none;
 }
 
+.gallery-section iframe {
+  margin-bottom: 50px;
+}
+
 .gallery-section p {
   color: var(--light-color);
   text-align: center;
