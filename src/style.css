@@ -573,7 +573,9 @@ p {
 #other-recs,
 #activities,
 #beach-stay,
-#bay-stay {
+#bay-stay,
+#beach-hero,
+#bay-hero {
   scroll-margin-top: 100px;
 }
 
