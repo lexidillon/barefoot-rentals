@@ -165,7 +165,7 @@ p {
 .btn-light {
   background-color: var(--light-color) !important;
   color: var(--dark-color);
-  border: 1px solid var(--dark-color);
+  /* border: 1px solid var(--dark-color); */
 }
 
 .btn-light:hover {
