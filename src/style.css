@@ -306,7 +306,7 @@ p {
 
 .house-tagline {
   color: var(--dark-color);
-  font-family: var(--subtitle-font-family);
+  font-family: var(--title-font-family);
   font-size: 40px;
   -webkit-text-stroke: 1px var(--light-color);
   opacity: 0.7;
@@ -334,18 +334,19 @@ p {
 
 .hero h3 {
   font-family: var(--title-font-family);
-  opacity: 0.8;
-  font-size: 16px;
+  opacity: 0.9;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.6;
-  margin: 5px 120px;
+  margin: 5px 100px;
+  background: rgb(255, 255, 255, 0.3);
 }
 
 .hero .title {
   -webkit-text-stroke: 2px var(--dark-color);
   text-shadow: 1px 1px 2px var(--dark-color);
   color: var(--light-color);
-  font-size: 80px;
+  font-size: 90px;
 }
 
 .highlighted-headline {
@@ -614,7 +615,7 @@ p {
 .tagline {
   font-family: "Cedarville Cursive", cursive;
   color: var(--dark-color);
-  opacity: 0.7;
+  opacity: 0.9;
   word-spacing: 5px;
   margin: 20px 0px 30px 0px;
 }
@@ -832,6 +833,14 @@ p {
   .contact-section {
     padding: 120px 30px 50px 30px;
     line-height: 1;
+  }
+
+  .house-content .title {
+    margin-bottom: 35px;
+  }
+
+  .house-tagline {
+    display: none;
   }
 
   .owner-story-content {
