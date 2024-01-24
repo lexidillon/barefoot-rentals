@@ -340,6 +340,8 @@ p {
   line-height: 1.6;
   margin: 5px 100px;
   background: rgb(255, 255, 255, 0.3);
+  padding: 10px;
+  border-radius: 30px;
 }
 
 .hero .title {
@@ -775,6 +777,20 @@ p {
     padding: 10px 20px;
   }
 
+  .hero h3 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .info-section i {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
   .owner-story-content {
     margin: 30px 70px;
   }
@@ -817,13 +833,22 @@ p {
   }
 
   .header-content {
-    margin-left: 10px;
+    margin: 50px 10px;
     padding: 0px 20px;
   }
 
   .header-content p {
     font-size: 16px;
     text-align: center;
+  }
+
+  .hero h3 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 5px 10px;
+    padding: 10px;
+    border-radius: 30px;
   }
 
   .hero,
@@ -839,8 +864,31 @@ p {
     margin-bottom: 35px;
   }
 
+  .house-description {
+    margin: 10px 20px;
+  }
+
   .house-tagline {
     display: none;
+  }
+
+  .info-section {
+    padding: 20px 10px;
+    margin: 70px 30px;
+  }
+
+  .info-section i {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .info-section p {
+    font-size: 15px;
+  }
+
+  .info-section .title {
+    margin-top: 30px;
+    margin-bottom: 0px;
   }
 
   .owner-story-content {
