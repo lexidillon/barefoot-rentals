@@ -808,6 +808,11 @@ p {
     width: 200px;
   }
 
+  .amenities-section .title {
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+
   .btn-light {
     font-size: 15px;
     margin: 0px 50px;
@@ -943,6 +948,10 @@ p {
   .subtitle {
     font-size: 30px;
     line-height: 1;
+  }
+
+  .team-section .title {
+    margin-bottom: 35px;
   }
 
   .title,
