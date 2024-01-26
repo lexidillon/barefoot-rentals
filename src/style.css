@@ -6,63 +6,6 @@
   --dark-color: #07588a;
   --primary-color: #bfe9db;
   --accent-color: #6ac1b8;
-
-  /* // Second option */
-  /* --light-color: #ecfffb;
-  --dark-color: #1e6262;
-  --primary-color: #2d767f;
-  --accent-color: #b4f1f1; */
-}
-
-footer {
-  background-color: rgb(225, 246, 244, 0.7);
-  padding: 45px 15px;
-  margin-top: 120px;
-}
-
-footer a,
-footer li {
-  text-decoration: none;
-  color: var(--dark-color);
-  font-family: var(--subtitle-font-family);
-  font-size: 12px;
-  transition: all 100ms ease-in-out;
-}
-
-footer a:hover {
-  color: var(--accent-color);
-}
-
-footer p {
-  font-family: var(--paragraph-font-family);
-  font-size: 12px;
-  opacity: 0.8;
-  color: var(--dark-color);
-  text-align: right;
-}
-
-footer p a {
-  text-decoration: underline;
-}
-
-footer small {
-  color: var(--dark-color);
-  opacity: 0.7;
-}
-
-hr {
-  border: 3px solid var(--dark-color);
-}
-
-iframe {
-  margin: 0 auto;
-  display: block;
-}
-
-p {
-  color: black;
-  font-family: var(--paragraph-font-family);
-  font-size: 18;
 }
 
 .about-hero,
@@ -108,7 +51,6 @@ p {
 .amenities-section .subtitle {
   font-family: var(--title-font-family);
   color: var(--dark-color);
-  /* -webkit-text-stroke: 1px var(--primary-color); */
   margin: 40px;
 }
 
@@ -165,7 +107,6 @@ p {
 .btn-light {
   background-color: var(--light-color) !important;
   color: var(--dark-color);
-  /* border: 1px solid var(--dark-color); */
 }
 
 .btn-light:hover {
@@ -266,6 +207,42 @@ p {
   background-color: var(--light-color);
 }
 
+footer {
+  background-color: rgb(225, 246, 244, 0.7);
+  padding: 45px 15px;
+  margin-top: 120px;
+}
+
+footer a,
+footer li {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-family: var(--subtitle-font-family);
+  font-size: 12px;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+}
+
+footer p {
+  font-family: var(--paragraph-font-family);
+  font-size: 12px;
+  opacity: 0.8;
+  color: var(--dark-color);
+  text-align: right;
+}
+
+footer p a {
+  text-decoration: underline;
+}
+
+footer small {
+  color: var(--dark-color);
+  opacity: 0.7;
+}
+
 .footer-title {
   font-size: 18px;
   font-family: var(--subtitle-font-family);
@@ -304,14 +281,6 @@ p {
   padding: 0px 60px;
 }
 
-.house-tagline {
-  color: var(--dark-color);
-  font-family: var(--title-font-family);
-  font-size: 40px;
-  -webkit-text-stroke: 1px var(--light-color);
-  opacity: 0.7;
-}
-
 .hero {
   background: #749a8e;
   background: -webkit-linear-gradient(
@@ -323,13 +292,6 @@ p {
   background-repeat: no-repeat;
   padding: 220px 60px 140px 60px;
   line-height: 1.5;
-}
-
-.home-buttons,
-.house-buttons {
-  margin: 0 auto;
-  display: block;
-  text-align: center;
 }
 
 .hero h3 {
@@ -355,6 +317,13 @@ p {
   -webkit-text-stroke: 1px var(--light-color);
 }
 
+.home-buttons,
+.house-buttons {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
 .homepage-links {
   margin-bottom: 60px;
   margin-top: 45px;
@@ -378,6 +347,23 @@ p {
 .amenities-section {
   padding: 70px 60px 50px 60px;
   line-height: 1.5;
+}
+
+.house-tagline {
+  color: var(--dark-color);
+  font-family: var(--title-font-family);
+  font-size: 40px;
+  -webkit-text-stroke: 1px var(--light-color);
+  opacity: 0.7;
+}
+
+hr {
+  border: 3px solid var(--dark-color);
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
 }
 
 .info-section {
@@ -468,6 +454,12 @@ p {
   background: var(--light-color);
 }
 
+p {
+  color: black;
+  font-family: var(--paragraph-font-family);
+  font-size: 18;
+}
+
 .recs-body {
   padding: 10px 20px;
 }
@@ -511,10 +503,6 @@ p {
 .recs-body ul {
   list-style: none;
 }
-
-/* .recs-hero {
-  /* background-color: var(--light-color); */
-} */
 
 .recs-hero .title,
 .recs-hero .subtitle {
@@ -895,6 +883,10 @@ p {
     margin-bottom: 0px;
   }
 
+  .local-businesses p {
+    margin: 10px 20px;
+  }
+
   .other-section {
     padding: 10px 5px 50px 5px;
   }
@@ -915,18 +907,23 @@ p {
   }
 
   .recs-body {
-  padding: 10px 0px;
-}
-
-  .recs-hero, .contact-section {
-        padding: 180px 5px 50px 5px;
+    padding: 10px 0px;
   }
 
-  .recs-hero .subtitle, .contact-section .subtitle {
+  .recs-hero,
+  .contact-section {
+    padding: 180px 5px 50px 5px;
+  }
+
+  .recs-hero .subtitle,
+  .contact-section .subtitle,
+  .todo-hero .subtitle {
     font-size: 25px;
   }
 
-  .recs-hero .title, .contact-section .title {
+  .recs-hero .title,
+  .contact-section .title,
+  .todo-hero .title {
     font-size: 45px;
   }
 
