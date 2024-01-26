@@ -512,9 +512,9 @@ p {
   list-style: none;
 }
 
-.recs-hero {
+/* .recs-hero {
   /* background-color: var(--light-color); */
-}
+} */
 
 .recs-hero .title,
 .recs-hero .subtitle {
@@ -827,9 +827,14 @@ p {
     display: block;
   }
 
+  .directions-section {
+    max-width: 500px;
+    margin: 0px;
+  }
+
   .directions-section p {
     font-size: 16px;
-    margin: 0px 10px;
+    margin: 20px 10px 0px 10px;
   }
 
   .header-content {
@@ -853,7 +858,6 @@ p {
 
   .hero,
   .about-hero,
-  .recs-hero,
   .todo-hero,
   .contact-section {
     padding: 120px 30px 50px 30px;
@@ -893,13 +897,25 @@ p {
 
   .owner-story-content {
     margin: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .owner-story-section,
   .house-info,
   .amenities-section {
     padding: 10px;
+  }
+
+  .recs-hero {
+        padding: 160px 5px 50px 5px;
+  }
+
+  .recs-hero .subtitle {
+    font-size: 25px;
+  }
+
+  .recs-hero .title {
+    font-size: 45px;
   }
 
   .stay-content .booking-info {
