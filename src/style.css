@@ -895,6 +895,14 @@ p {
     margin-bottom: 0px;
   }
 
+  .other-section {
+    padding: 10px 5px 50px 5px;
+  }
+
+  .other-section .title {
+    font-size: 30px;
+  }
+
   .owner-story-content {
     margin: 10px;
     font-size: 14px;
@@ -906,15 +914,19 @@ p {
     padding: 10px;
   }
 
-  .recs-hero {
-        padding: 160px 5px 50px 5px;
+  .recs-body {
+  padding: 10px 0px;
+}
+
+  .recs-hero, .contact-section {
+        padding: 180px 5px 50px 5px;
   }
 
-  .recs-hero .subtitle {
+  .recs-hero .subtitle, .contact-section .subtitle {
     font-size: 25px;
   }
 
-  .recs-hero .title {
+  .recs-hero .title, .contact-section .title {
     font-size: 45px;
   }
 
