@@ -857,6 +857,12 @@ p {
     line-height: 1;
   }
 
+  .house-info,
+  .directions-section {
+    padding: 30px 60px 30px 60px;
+    line-height: 1;
+  }
+
   .house-content .title {
     margin-bottom: 35px;
   }
