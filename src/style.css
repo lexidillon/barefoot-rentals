@@ -552,6 +552,10 @@ p {
   margin: 40px 0px;
 }
 
+.rental-properties h1 {
+  text-align: center;
+}
+
 .rental-properties p {
   line-height: 1.9;
 }
@@ -872,7 +876,7 @@ p {
   }
 
   .house-description {
-    margin: 10px 20px;
+    margin: 10px 10px;
   }
 
   .house-tagline {
@@ -881,7 +885,7 @@ p {
 
   .info-section {
     padding: 20px 10px;
-    margin: 70px 30px;
+    margin: 70px 10px;
   }
 
   .info-section i {
@@ -940,6 +944,10 @@ p {
   .contact-section .title,
   .todo-hero .title {
     font-size: 45px;
+  }
+
+  .rental-properties h1 {
+    text-align: left;
   }
 
   .stay-content .booking-info {
