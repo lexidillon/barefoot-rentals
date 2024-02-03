@@ -811,7 +811,15 @@ p {
     display: block;
   }
 
-  .directions-section {
+  .cart-section,
+  .food-section,
+  .boat-section,
+  .other-section {
+    margin: 10px;
+  }
+
+  .directions-section,
+  .info-section {
     max-width: 500px;
     margin: 0px;
   }
@@ -825,6 +833,10 @@ p {
     display: none;
   }
 
+  .gallery-section p {
+    margin: 20px 30px;
+  }
+
   .header-content {
     margin: 50px 10px;
     padding: 0px 20px;
@@ -836,8 +848,8 @@ p {
   }
 
   .hero h3 {
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.2;
     margin: 5px 10px;
     padding: 10px;
@@ -868,7 +880,7 @@ p {
 
   .info-section {
     padding: 20px 10px;
-    margin: 70px 10px;
+    margin: 50px 0px;
   }
 
   .info-section i {
@@ -944,6 +956,10 @@ p {
   .subtitle {
     font-size: 30px;
     line-height: 1;
+  }
+
+  .tagline {
+    opacity: 1;
   }
 
   .team-section .title {
