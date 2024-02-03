@@ -349,14 +349,6 @@ footer small {
   line-height: 1.5;
 }
 
-.house-tagline {
-  color: var(--dark-color);
-  font-family: var(--title-font-family);
-  font-size: 40px;
-  -webkit-text-stroke: 1px var(--light-color);
-  opacity: 0.7;
-}
-
 hr {
   border: 3px solid var(--dark-color);
 }
@@ -546,11 +538,6 @@ p {
 .recs-subhero i {
   font-size: 28px;
 }
-
-/* .rental-properties {
-  padding: 20px 40px;
-  margin: 40px 0px;
-} */
 
 .rental-properties p {
   line-height: 1.9;
@@ -867,7 +854,7 @@ p {
 
   .house-info,
   .directions-section {
-    padding: 30px 60px 30px 60px;
+    padding: 20px 30px 20px 30px;
     line-height: 1;
   }
 
@@ -877,10 +864,6 @@ p {
 
   .house-description {
     margin: 10px 0px;
-  }
-
-  .house-tagline {
-    display: none;
   }
 
   .info-section {
@@ -920,7 +903,6 @@ p {
   }
 
   .owner-story-section,
-  .house-info,
   .amenities-section {
     padding: 10px;
   }
@@ -945,11 +927,6 @@ p {
   .todo-hero .title {
     font-size: 45px;
   }
-
-  /* .rental-properties h1 {
-    padding: 0px;
-    margin: 0px;
-  } */
 
   .stay-content .booking-info {
     font-size: 14px;
@@ -977,10 +954,5 @@ p {
   .hero-title {
     font-size: 50px;
     text-align: center;
-  }
-
-  .house-info {
-    padding: 70px 60px 50px 60px;
-    line-height: 1.5;
   }
 }
