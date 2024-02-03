@@ -818,6 +818,26 @@ p {
     margin: 10px;
   }
 
+  /* .contact-section {
+    background: #749a8e;
+    background: -webkit-linear-gradient(
+        rgba(47, 72, 88, 0.7),
+        rgba(116, 154, 142, 0.2)
+      ),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/635/original/contact.jpg?1706995924");
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+  } */
+
+  .contact-section img {
+    display: none;
+  }
+
+  /* .contact-header {
+    background: white:
+  } */
+
   .contact-section .subtitle,
   .todo-hero .subtitle {
     font-size: 25px;
@@ -909,6 +929,10 @@ p {
     margin-bottom: 0px;
   }
 
+  .local-businesses img {
+    width: 300px;
+  }
+
   .local-businesses p {
     margin: 10px 20px;
   }
@@ -941,7 +965,7 @@ p {
 
   .recs-hero,
   .contact-section {
-    padding: 180px 5px 50px 5px;
+    padding: 180px 20px 40px 20px;
   }
 
   .recs-hero .subtitle {
@@ -984,5 +1008,18 @@ p {
   .hero-title {
     font-size: 50px;
     text-align: center;
+  }
+
+  .todo-recs {
+    margin: 10px 40px;
+  }
+
+  .todo-recs h5 {
+    opacity: 1;
+  }
+
+  .todo-recs .subtitle {
+    margin-top: 45px;
+    margin-bottom: 15px;
   }
 }
