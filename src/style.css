@@ -818,6 +818,16 @@ p {
     margin: 10px;
   }
 
+  .contact-section .subtitle,
+  .todo-hero .subtitle {
+    font-size: 25px;
+  }
+
+  .contact-section .title,
+  .todo-hero .title {
+    font-size: 45px;
+  }
+
   .directions-section,
   .info-section,
   .cart-section,
@@ -934,16 +944,14 @@ p {
     padding: 180px 5px 50px 5px;
   }
 
-  .recs-hero .subtitle,
-  .contact-section .subtitle,
-  .todo-hero .subtitle {
-    font-size: 25px;
+  .recs-hero .subtitle {
+    margin: 10px 40px;
+    opacity: 1;
+    font-size: 22px;
   }
 
-  .recs-hero .title,
-  .contact-section .title,
-  .todo-hero .title {
-    font-size: 45px;
+  .recs-hero .title {
+    font-size: 40px;
   }
 
   .stay-content .booking-info {
