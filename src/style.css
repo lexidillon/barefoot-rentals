@@ -330,7 +330,7 @@ footer small {
 }
 
 .house-description {
-  margin: 10px 80px;
+  margin: 10px 20px;
   line-height: 30px;
   font-family: var(--paragraph-font-family);
   color: var(--dark-color);
@@ -550,10 +550,6 @@ p {
 .rental-properties {
   padding: 20px 40px;
   margin: 40px 0px;
-}
-
-.rental-properties h1 {
-  text-align: center;
 }
 
 .rental-properties p {
@@ -951,7 +947,6 @@ p {
   }
 
   .rental-properties h1 {
-    text-align: left;
     padding: 0px;
     margin: 0px;
   }
