@@ -547,10 +547,10 @@ p {
   font-size: 28px;
 }
 
-.rental-properties {
+/* .rental-properties {
   padding: 20px 40px;
   margin: 40px 0px;
-}
+} */
 
 .rental-properties p {
   line-height: 1.9;
@@ -946,10 +946,10 @@ p {
     font-size: 45px;
   }
 
-  .rental-properties h1 {
+  /* .rental-properties h1 {
     padding: 0px;
     margin: 0px;
-  }
+  } */
 
   .stay-content .booking-info {
     font-size: 14px;
