@@ -819,7 +819,9 @@ p {
   }
 
   .directions-section,
-  .info-section {
+  .info-section,
+  .cart-section,
+  .food-section {
     max-width: 500px;
     margin: 0px;
   }
@@ -921,6 +923,10 @@ p {
 
   .recs-body {
     padding: 0px;
+  }
+
+  .recs-body h3 {
+    font-size: 35px;
   }
 
   .recs-hero,
