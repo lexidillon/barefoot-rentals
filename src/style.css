@@ -790,7 +790,7 @@ p {
 
   .title,
   .hero .title {
-    font-size: 55px;
+    font-size: 65px;
   }
 }
 
@@ -890,7 +890,7 @@ p {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
-    margin: 5px 10px;
+    margin: 5px;
     padding: 10px;
     border-radius: 30px;
   }
@@ -901,6 +901,10 @@ p {
   .contact-section {
     padding: 120px 30px 50px 30px;
     line-height: 1;
+  }
+
+  .hero .title {
+    font-size: 65px;
   }
 
   .house-info,
