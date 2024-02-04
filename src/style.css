@@ -818,7 +818,7 @@ p {
     margin: 10px;
   }
 
-  /* .contact-section {
+  .contact-section {
     background: #749a8e;
     background: -webkit-linear-gradient(
         rgba(47, 72, 88, 0.7),
@@ -828,15 +828,17 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 1.5;
-  } */
+  }
 
   .contact-section img {
     display: none;
   }
 
-  /* .contact-header {
-    background: white:
-  } */
+  .contact-header {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
 
   .contact-section .subtitle,
   .todo-hero .subtitle {
@@ -846,6 +848,10 @@ p {
   .contact-section .title,
   .todo-hero .title {
     font-size: 45px;
+  }
+
+  .contact-text {
+    font-size: 15px;
   }
 
   .directions-section,
