@@ -818,11 +818,17 @@ p {
     margin: 10px;
   }
 
+  .contact-header {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+
   .contact-section {
     background: #749a8e;
     background: -webkit-linear-gradient(
-        rgba(47, 72, 88, 0.7),
-        rgba(116, 154, 142, 0.2)
+        rgba(47, 72, 88, 0.6),
+        rgba(116, 154, 142, 0.8)
       ),
       url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/635/original/contact.jpg?1706995924");
     background-size: cover;
@@ -832,12 +838,6 @@ p {
 
   .contact-section img {
     display: none;
-  }
-
-  .contact-header {
-    background-color: rgb(255, 255, 255, 0.7);
-    border-radius: 20px;
-    padding: 10px 20px;
   }
 
   .contact-section .subtitle,
