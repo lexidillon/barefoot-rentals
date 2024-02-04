@@ -155,7 +155,9 @@
 
 .directions-section {
   padding: 75px;
-  margin: 50px;
+  /* margin: 50px; */
+  display: block;
+  margin: 0 auto;
 }
 
 .directions-section,
