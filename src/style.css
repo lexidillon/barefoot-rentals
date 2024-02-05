@@ -148,6 +148,10 @@
   padding: 150px 60px 70px 60px;
 }
 
+.contact-section .subtitle {
+  font-size: 20px;
+}
+
 .contact-text {
   font-size: 20px;
   font-family: var(--subtitle-font-family);
@@ -842,9 +846,8 @@ p {
     display: none;
   }
 
-  .contact-section .subtitle,
-  .todo-hero .subtitle {
-    font-size: 25px;
+  .contact-section .subtitle {
+    font-size: 15px;
   }
 
   .contact-section .title,
@@ -1021,6 +1024,10 @@ p {
   .hero-title {
     font-size: 50px;
     text-align: center;
+  }
+
+  .todo-hero .subtitle {
+    font-size: 25px;
   }
 
   .todo-recs {
