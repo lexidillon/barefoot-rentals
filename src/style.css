@@ -129,6 +129,16 @@
   margin: 45px;
 }
 
+.contact-header {
+  background-color: var(--dark-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.contact-section .contact-info .subtitle {
+  color: var(--dark-color);
+}
+
 .contact-page-icons {
   text-align: left;
 }
@@ -150,6 +160,11 @@
 
 .contact-section .subtitle {
   font-size: 20px;
+}
+
+.contact-section .title,
+.contact-section .subtitle {
+  color: var(--light-color);
 }
 
 .contact-text {
@@ -848,6 +863,11 @@ p {
 
   .contact-section .subtitle {
     font-size: 15px;
+  }
+
+  .contact-section .title,
+  .contact-section .subtitle {
+    color: var(--dark-color);
   }
 
   .contact-section .title,
