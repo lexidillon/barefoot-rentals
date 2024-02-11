@@ -845,6 +845,11 @@ p {
     padding: 10px 20px;
   }
 
+  .contact-info {
+    padding: 0px;
+    margin: 0px;
+  }
+
   .contact-section .contact-info .subtitle {
     color: var(--dark-color);
     font-weight: 600;
@@ -870,7 +875,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 45px;
-    padding: 150px 20px 70px 20px;
   }
 
   .contact-section img {
