@@ -858,11 +858,11 @@ p {
 
   .contact-page-icons {
     text-align: center;
-    font-size: 18px;
   }
 
   .contact-page-icons a {
     font-weight: 600;
+    font-size: 14px;
   }
 
   .contact-section {
