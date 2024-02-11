@@ -845,6 +845,21 @@ p {
     padding: 10px 20px;
   }
 
+  .contact-section .contact-info .subtitle {
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .contact-page-icons {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .contact-page-icons a {
+    font-weight: 600;
+  }
+
   .contact-section {
     background: #749a8e;
     background: -webkit-linear-gradient(
@@ -854,7 +869,7 @@ p {
       url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/635/original/contact.jpg?1706995924");
     background-size: cover;
     background-repeat: no-repeat;
-    line-height: 1.5;
+    line-height: 45px;
   }
 
   .contact-section img {
@@ -922,8 +937,7 @@ p {
 
   .hero,
   .about-hero,
-  .todo-hero,
-  .contact-section {
+  .todo-hero {
     padding: 120px 30px 50px 30px;
     line-height: 1;
   }
@@ -1029,7 +1043,6 @@ p {
 
   .subtitle {
     font-size: 30px;
-    line-height: 1;
   }
 
   .tagline {
