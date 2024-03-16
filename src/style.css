@@ -52,7 +52,7 @@
 }
 
 .amenities-section {
-  background-color: var(--light-color);
+  background-color: rgb(225, 246, 244, 0.5);
 }
 
 .amenities-section .house-icons {
