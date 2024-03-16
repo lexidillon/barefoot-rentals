@@ -26,6 +26,18 @@
   background-color: #717171;
 }
 
+.additional {
+  text-align: center;
+  font-family: var(--title-font-family);
+  color: var(--dark-color);
+  font-size: 42px;
+  padding-top: 50px;
+}
+
+.additional li {
+  font-family: var(--paragraph-font-family);
+}
+
 .amenities-content {
   padding-bottom: 75px;
 }
