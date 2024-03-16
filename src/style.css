@@ -475,6 +475,7 @@ p {
 
 .recs-body {
   padding: 10px 20px;
+  text-align: center;
 }
 
 .recs-body a,
@@ -1012,6 +1013,7 @@ p {
 
   .recs-body {
     padding: 0px;
+    /* text-align: left; */
   }
 
   .recs-body h3 {
